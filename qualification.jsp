@@ -115,7 +115,7 @@ return false;
 <div class="col-lg-12" style="background-color:black ;font-size:50px;color:white;"> DELOITTE DESIGNATION
 <img src="../image/d3.jpg" align="right" height="100px" width="100px"></div>  
 </div>   
-<form class="form-horizontal" onsubmit="return formValidation()" action="/get" method="post"> 
+<form class="form-horizontal" onsubmit="return formValidation()" action="/quasubmit/${user.getUserid()}/${user.getEmailid()}/${user.getName()}/${user.getFathername()}/${user.getMothername()}/${user.getAddress()}/${user.getContactno()}/${user.getGender()}/${user.getPassword()}"> 
 <div class="row">
 <div class="col-lg-12">
 <h3>PERSONAL INFORMATION</h3>

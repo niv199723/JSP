@@ -175,7 +175,7 @@ else
 return false;
 }
 </script>
-<div class="container"> 
+ 
 <div class="row" >
 <div class="col-lg-12" style="background-color:black ;font-size:50px;color:white;"> DELOITTE DESIGNATION
 <img src="../image/d3.jpg" align="right" height="100px" width="100px"></div>  
@@ -183,61 +183,77 @@ return false;
 <form class="form-horizontal" action="/submit" method="post" onsubmit="return formValidation()"> 
 <div class="row">
 <div class="col-lg-12">
-<h3>PERSONAL DETAILS</h3>
+<center><h3>PERSONAL DETAILS</h3></center>
 </div>
 </div>
+<div class="container">
 <div class="row"> 
+<div class="col-lg-2"></div>
 <div class="col-lg-4"><label>User Id</label></div>
 <div class="col-lg-4">          
 <input type="text" name="userid" onchange="useridValidation()" id="uid" placeholder="Enter your userid">
 </div>
 <span id="erroruserid"></span>
-</div>
+<div class="col-lg-2"></div>
+</div><br><br>
 <div class="row"> 
+<div class="col-lg-2"></div>
 <div class="col-lg-4"><label>Email Id</label></div>
 <div class="col-lg-4">          
 <input type="text" name="emailid" onchange="mailValidation()" id="eid" placeholder="Enter your email">
 </div>
-<span id="errormail"></span>	 
-</div>
+<span id="errormail"></span>
+<div class="col-lg-2"></div>	 
+</div><br><br>
 <div class="row"> 
+<div class="col-lg-2"></div>
 <div class="col-lg-4"><label>Name</label>
 </div>
 <div class="col-lg-4">          
 <input id="txtname" name="name" onchange="userValidation()" type="text" placeholder="Enter your name">
     </div>
-<span id="errorname"></span>	
-</div>
+<span id="errorname"></span>
+<div class="col-lg-2"></div>	
+</div><br><br>
 <div class="row"> 
+<div class="col-lg-2"></div>
 <div class="col-lg-4"><label>Fathers Name</label>
 </div>
 <div class="col-lg-4">          
 <input id="fname" name="fathername" onchange="fnameValidation()" type="text" placeholder="Enter your Fathers name">
     </div>
 <span id="errorFname"></span>	
-</div>
+<div class="col-lg-2"></div>
+</div><br><br>
 <div class="row"> 
+<div class="col-lg-2"></div>
 <div class="col-lg-4"><label>Mothers Name</label>
 </div>
 <div class="col-lg-4">          
 <input id="mname" name="mothername" onchange="mnameValidation()" type="text" placeholder="Enter your mothers name">
     </div>
-<span id="errorMname"></span>	
-</div> 
+<span id="errorMname"></span>
+<div class="col-lg-2"></div>	
+</div> <br><br>
 <div class="row">
+<div class="col-lg-2"></div>
 <div class="col-lg-4"><label>Address</label></div>
 <div class="col-lg-4">          
 <textarea id="addr" name="address" onchange="addrValidation()"></textarea>
 </div>
-<span id="errorAddr"></span>	
-</div>
+<span id="errorAddr"></span>
+<div class="col-lg-2"></div>	
+</div><br><br>
 <div class="row">
+<div class="col-lg-2"></div>
 <div class="col-lg-4"><label>Phone Number</label></div>
 <div class="col-lg-4">
 <input type="text" name="contactno" id="num" onchange="numValidation()"></div>
 <span id="errorNum"></span>
-</div>
+<div class="col-lg-2"></div>
+</div><br><br>
 <div class="row"> 
+<div class="col-lg-2"></div>
 <div class="col-lg-4">
 <label>Gender</label></div>
 <div class="col-lg-2">                                                              
@@ -247,27 +263,33 @@ return false;
 <input type="radio" name="gender" value="F">Female                             
 </div> 
 <span id="errorGender"></span>
-</div>
+<div class="col-lg-2"></div>
+</div><br><br>
 <div class="row"> 
+<div class="col-lg-2"></div>
 <div class="col-lg-4"><label>password</label></div>
 <div class="col-lg-4">          
 <input type="password" name="password" onchange="pwdValidation()" id="pid" placeholder="Enter your Password">
 </div>
-<span id="errorpwd"></span>	 
-</div>
+<span id="errorpwd"></span>	
+<div class="col-lg-2"></div> 
+</div><br><br>
 <div class="row"> 
+<div class="col-lg-2"></div>
 <div class="col-lg-4"><label>confirm password</label></div>
 <div class="col-lg-4">          
 <input type="password" id="pid1" onchange="confirmpwdValidation()">
 </div>
-<span id="errorpwd1"></span>	 
-</div>
+<span id="errorpwd1"></span>
+<div class="col-lg-2"></div>	 
+</div><br><br>
 <div class="row">
+<div class="col-lg-2"></div>
 <div class="col-lg-4">
 <input type="submit" value="next"></div>
 </div>
 </form>
-<h4>${test}</h4>
+
 </div> 
 </body>
 </html>
